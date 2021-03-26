@@ -1,0 +1,16 @@
+.Header {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  width: 100%;
+}
+
+.Header .right, .Header .left {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.Header .right {
+  justify-content: flex-end;
+}

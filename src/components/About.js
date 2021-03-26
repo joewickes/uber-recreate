@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './../styles/About.css';
 
 const About = () => {
   const [info] = useState([
@@ -8,7 +9,7 @@ const About = () => {
   ]);
 
   return (
-    <>
+    <section className="About">
       <ul className="info">
         {info.map(piece => {
           return (
@@ -20,7 +21,7 @@ const About = () => {
           );
         })}
       </ul>
-    </>
+    </section>
   );
 }
 

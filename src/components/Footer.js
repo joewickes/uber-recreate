@@ -1,8 +1,9 @@
 import React from 'react';
+import './../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <>
+    <section className="Footer">
       <section className="top">
         <a href="#">Uber</a>
         <a href="#">Visit Help Center</a>
@@ -33,7 +34,7 @@ const Footer = () => {
         <a href="#">Safety</a>
         <a href="#">Diversity and Inclusion</a>
       </section>
-    </>
+    </section>
   )
 }
 

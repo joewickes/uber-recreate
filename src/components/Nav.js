@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './../styles/Nav.css';
 
 const Nav = () => {
   const [buttons] = useState([
@@ -10,11 +11,13 @@ const Nav = () => {
     {name: 'Transit', icon: null}
   ])
   return (
-    <ul className="nav-buttons">
-      {buttons.map(button => {
-        return (<li>{button.name}</li>);
-      })}
-    </ul>
+    <section className="Nav">
+      <ul className="nav-buttons">
+        {buttons.map(button => {
+          return (<li>{button.name}</li>);
+        })}
+      </ul>
+    </section>
   );
 }
 

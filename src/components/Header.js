@@ -1,8 +1,9 @@
 import React from 'react';
+import './../styles/Header.css';
 
 const Header = () => {
   return (
-    <>
+    <section className="Header">
       <section className="left">
         {/*Uber Logo*/}<div>Uber</div>
       </section>
@@ -11,7 +12,7 @@ const Header = () => {
         <button className="SignUp">Sign up</button>
         {/*Hamburger Menu*/}<div>=</div>
       </section>
-    </>
+    </section>
   );
 }
 

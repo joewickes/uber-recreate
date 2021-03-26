@@ -1,8 +1,9 @@
 import React from 'react';
+import './../styles/Safety.css';
 
 const Safety = () => {
   return (
-    <>
+    <section className="Safety">
       <h2>Focused on safety, wherever you go</h2>
       <section className="left">
         <h3>Our commitment to your safety</h3>
@@ -15,7 +16,7 @@ const Safety = () => {
         <p>The app is available in thousands of cities worldwide, so you can request a ride even when you're far from home</p>
         <a href="#">View all cities</a>
       </section>
-    </>
+    </section>
   )
 }
 
