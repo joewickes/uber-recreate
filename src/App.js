@@ -6,6 +6,7 @@ import Business from './components/Business';
 import Reserve from './components/Reserve';
 import Safety from './components/Safety';
 import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Reserve />
       <Safety />
       <About />
+      <Contact />
     </div>
   );
 }
