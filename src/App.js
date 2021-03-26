@@ -7,6 +7,7 @@ import Reserve from './components/Reserve';
 import Safety from './components/Safety';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Safety />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }
