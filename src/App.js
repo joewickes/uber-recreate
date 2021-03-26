@@ -4,6 +4,8 @@ import Nav from './components/Nav';
 import Eats from './components/Eats';
 import Business from './components/Business';
 import Reserve from './components/Reserve';
+import Safety from './components/Safety';
+import About from './components/About';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
       <Eats />
       <Business />
       <Reserve />
+      <Safety />
+      <About />
     </div>
   );
 }
